@@ -28,7 +28,7 @@ $(function () {
       } else {
         $nickError.html(`
           <div class="alert alert-danger">
-            Este usuario ya existe
+            Este nickname ya esta en uso
           </div>
         `);
       }
