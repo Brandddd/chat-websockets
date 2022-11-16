@@ -12,6 +12,7 @@ actualizada de nodejs, después de esto, se instalaron las siguientes dependenci
     una conexion con el servidor y el cliente continuamente, esto se hace gracias a websockets
 3. nodemonnpm (npm install nodemon -D) -> Modulo de utilidades para la ejecucion del script
 4. Biblioteca JQuery para la obtención de los mensajes
+5. Biblioteca de iconos FontAwesome fontawesome.com para los iconos usados.
 
 
 Para el Frontend:
