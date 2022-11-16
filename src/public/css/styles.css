@@ -14,8 +14,22 @@ body {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.color1 {color: #b3d2ff;}
-.color2 {color: #fdf8ff;}
-.color3 {color: #151935;}
-.color4 {color: #77767c;}
-.color5 {color: #e2e2e2;}
+#content-wrap {
+  display: none;
+}
+
+.color1 {
+  color: #b3d2ff;
+}
+.color2 {
+  color: #fdf8ff;
+}
+.color3 {
+  color: #151935;
+}
+.color4 {
+  color: #77767c;
+}
+.color5 {
+  color: #e2e2e2;
+}
