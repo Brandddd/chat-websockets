@@ -12,6 +12,14 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Styles.css -->
     <link rel="stylesheet" href="\css\styles.css" />
   </head>
@@ -22,21 +30,55 @@
       >
     </nav>
 
-    <div class="container align-content-center">
-      <div class="col-md-6 mt-4">
-        <div class="card">
-          <div class="card-header">
-            <h4>¡Hablemos!</h4>
-          </div>
-          <div id="chat" class="card-body"></div>
-          <form id="message-form" class="card-footer">
-            <div class="input-group">
-              <input type="text" id="message" class="form-control" />
-              <div class="input-group-append">
-                <input type="submit" class="btn btn-dark" />
-              </div>
+    <div class="card col-md-4 mt-5 mx-auto" id="nick-wrap">
+      <div class="card-header">
+        <h3>Ingresa tu nickname</h3>
+      </div>
+      <p id="nick-error"></p>
+      <div class="card-body">
+        <form id="nick-form">
+          <input type="text" id="nickname" class="form-control" placeholder="ex: pepito98"/>
+          <button type="submit" class="btn btn-dark mt-2">
+            <i class="fa-solid fa-paper-plane"></i>
+            Join
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="container" id="content-wrap">
+      <div class="row">
+        <div class="col-md-6 offset-md-1 mt-4">
+          <div class="card">
+            <div class="card-header">
+              <h4>
+                <i class="fa-solid fa-comments"></i>
+                Chatea con la comunidad!
+              </h4>
             </div>
-          </form>
+            <div id="chat" class="card-body"></div>
+            <form id="message-form" class="card-footer">
+              <div class="input-group">
+                <input type="text" id="message" class="form-control" placeholder="Escribe algo!" />
+                <div class="input-group-append">
+                  <button type="submit" class="btn btn-dark">
+                    <i class="fa-solid fa-paper-plane"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="card col-md-3 mt-4">
+          <div class="card-header">
+            <h4>
+              <i class="fa-solid fa-circle"></i>
+              Usuarios conectados:
+            </h4>
+          </div>
+          <div class="card-body">
+            <div id="usernames"></div>
+          </div>
         </div>
       </div>
     </div>
