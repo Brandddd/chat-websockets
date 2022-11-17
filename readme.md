@@ -17,7 +17,7 @@ actualizada de nodejs, después de esto, se instalaron las siguientes dependenci
 ### Para el Frontend:
 1. Para el fondo del body, fue sacado de https://uigradients.com/#Horizon
 2. Para el diseño del front se utilizó el CDN de bootstrap
-3. Para los iconos del front se utilizó eñ CDN de fontawesome
+3. Para los iconos del front se utilizó el CDN de fontawesome
 
 
 ## Ejecucion
