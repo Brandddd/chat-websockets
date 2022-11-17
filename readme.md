@@ -19,7 +19,14 @@ actualizada de nodejs, después de esto, se instalaron las siguientes dependenci
 2. Para el diseño del front se utilizó el CDN de bootstrap
 3. Para los iconos del front se utilizó el CDN de fontawesome
 
+## Funcionamiento:
 
-## Ejecucion
+### Ejecucion:
 
 - npm start
+
+### Hosting:
+
+- La script está corriendo en Heroku, un Paas (Plataform as a Service) donde se pueden alojar proyectos gratuitamente.
+
+**Link:** https://chatwebsocketsbrandddd.herokuapp.com/
